@@ -31,17 +31,19 @@ class Teacher extends Person {
 	}
 }
 const person= new Person("john", 25)
+const person1= new Person("john", 25)
 console.log(person.name)
+console.log(person1.name)
 
 
 person.age = 30;
 console.log(person.age); 
 
 const student = new Student("Alice", 22);
+const student1 = new Student("john", 23);
 student.study(); 
+student1.study(); 
 
-const teacher = new Teacher("Bob", 40);
-teacher.teach(); 
 
 // Do not change the code below this line
 window.Person = Person;
