@@ -17,14 +17,14 @@ class Student extends Person {
 
 	study()
 	{
-		console.log(this.name()"is studying")
+		console.log(this.name, "is studying")
 	}
 }
 
 class Teacher extends Person {
-	teach( name)
+	teach()
 	{
-		console.log(this.name()"is teaching")
+		console.log(this.name, "is teaching")
 	}
 }
 const person= new Person("john", 25)
